@@ -1,3 +1,4 @@
 fastapi
 psycopg2
 uvicorn
+sqlalchemy==1.4.23
