@@ -6,7 +6,8 @@ The goal is to learn how to design and build a fully functional API using Python
 ## 📚 What I'm Learning
 - Building routes in FastAPI
 - Request/response models with **Pydantic**
-- Database connection with **PostgreSQL** (`psycopg2`)
+- Database connection with **PostgreSQL**
+- ORM with **SQLAlchemy**
 - CRUD operations
 - Schema validation
 - Error handling
@@ -15,7 +16,7 @@ The goal is to learn how to design and build a fully functional API using Python
 ## 🚀 Current Status
 Right now, the API supports:
 - Creating, reading, updating, and deleting posts
-- Connecting to a PostgreSQL database
+- Database integration using SQLAlchemy ORM
 
 More features and improvements will be added as I progress in the course.
 
