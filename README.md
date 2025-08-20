@@ -12,11 +12,18 @@ The goal is to learn how to design and build a fully functional API using Python
 - Schema validation
 - Error handling
 - (Later) SQL, pytest testing, and CI/CD with GitHub Actions
+- User registration & authentication
+- Password hashing
+- JWT-based login system
+- OAuth2 with FastAPI
+- Using routers with prefixes and tags for better structure
 
 ## 🚀 Current Status
 Right now, the API supports:
-- Creating, reading, updating, and deleting posts
-- Database integration using SQLAlchemy ORM
+- CRUD operations for posts
+- User registration & secure password storage
+- Login & JWT token authentication
+- Route organization with FastAPI routers
 
 More features and improvements will be added as I progress in the course.
 
