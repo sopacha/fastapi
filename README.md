@@ -17,6 +17,7 @@ The goal is to learn how to design and build a fully functional API using Python
 - JWT-based login system
 - OAuth2 with FastAPI
 - Using routers with prefixes and tags for better structure
+- Working with query parameters for filtering and searching
 
 ## 🚀 Current Status
 Right now, the API supports:
@@ -24,6 +25,7 @@ Right now, the API supports:
 - User registration & secure password storage
 - Login & JWT token authentication
 - Route organization with FastAPI routers
+- Query parameters for filtering/searching data
 
 More features and improvements will be added as I progress in the course.
 
