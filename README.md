@@ -18,6 +18,8 @@ The goal is to learn how to design and build a fully functional API using Python
 - OAuth2 with FastAPI
 - Using routers with prefixes and tags for better structure
 - Working with query parameters for filtering and searching
+- Implementing relationships between tables in SQLAlchemy
+- Designing and handling a voting/like system
 
 ## 🚀 Current Status
 Right now, the API supports:
@@ -26,6 +28,7 @@ Right now, the API supports:
 - Login & JWT token authentication
 - Route organization with FastAPI routers
 - Query parameters for filtering/searching data
+- Voting system: users can like or unlike posts
 
 More features and improvements will be added as I progress in the course.
 
