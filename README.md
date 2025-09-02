@@ -1,40 +1,32 @@
-# FastAPI Learning Project
+# FastAPI Blog API
 
-This is a practice project built while following a course on **FastAPI** and Python API development.  
-The goal is to learn how to design and build a fully functional API using Python and FastAPI, including database integration, validation, and testing.
+A fully functional backend API built with **FastAPI**, **SQLAlchemy**, and **PostgreSQL**, developed as part of a comprehensive FastAPI course.  
+This project implements a complete CRUD blog system with authentication, voting, database migrations, and a full test suite.
 
-## 📚 What I'm Learning
-- Building routes in FastAPI
-- Request/response models with **Pydantic**
-- Database connection with **PostgreSQL**
-- ORM with **SQLAlchemy**
-- CRUD operations
-- Schema validation
-- Error handling
-- (Later) SQL, pytest testing, and CI/CD with GitHub Actions
-- User registration & authentication
-- Password hashing
-- JWT-based login system
-- OAuth2 with FastAPI
-- Using routers with prefixes and tags for better structure
-- Working with query parameters for filtering and searching
-- Implementing relationships between tables in SQLAlchemy
-- Designing and handling a voting/like system
-- Database migrations with Alembic
-- Understanding and configuring CORS in FastAPI
+---
 
-## 🚀 Current Status
-Right now, the API supports:
-- CRUD operations for posts
-- User registration & secure password storage
-- Login & JWT token authentication
-- Route organization with FastAPI routers
-- Query parameters for filtering/searching data
-- Voting system: users can like or unlike posts
-- Database migrations using Alembic
-- Configured CORS for frontend integration
+## 🚀 Features
+- **CRUD operations** for blog posts
+- **User registration** with secure password hashing
+- **JWT authentication** with OAuth2 login
+- **Voting system** (like/unlike posts)
+- **Query parameters** for filtering and searching
+- **SQLAlchemy ORM** for database interaction
+- **Alembic** for database migrations
+- **CORS** support for frontend integration
+- **Full test suite** with pytest, fixtures, and a dedicated test database
 
-More features and improvements will be added as I progress in the course.
+---
+
+## 🛠 Tech Stack
+- [FastAPI](https://fastapi.tiangolo.com/) – High-performance Python API framework
+- [PostgreSQL](https://www.postgresql.org/) – Relational database
+- [SQLAlchemy](https://www.sqlalchemy.org/) – ORM for database operations
+- [Alembic](https://alembic.sqlalchemy.org/) – Database migrations
+- [Pytest](https://docs.pytest.org/) – Automated testing framework
+- [Uvicorn](https://www.uvicorn.org/) – ASGI server
+
+---
 
 ## 🛠 Running the Project Locally
 1. Clone this repository:
